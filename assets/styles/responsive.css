@@ -1,0 +1,120 @@
+/* For Tablet */
+@media (max-width : 1000px) {
+  #welcom .welcome-content {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 30px;
+  }
+
+  /* Features */
+  .box {
+    float: left;
+    width: 50%;
+  }
+
+  .l-heading {
+    text-align: center;
+    font-size: 30px;
+  }
+  /*end features*/
+
+  #heroes .hero {
+    width: 65%;
+  }
+
+  #contact-info .box {
+    float:  none;
+    width:100%;
+    border-bottom: #444 dotted 1px;
+  } 
+}
+
+/* For Smarthphone */
+@media (max-width: 670px) {
+  #navbar .logo {
+    float: none;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #navbar ul,
+  #navbar li {
+    float: none;
+  }
+
+  #navbar ul li a {
+    padding: 10px;
+    border-bottom: #444 dotted 1p;
+  }
+
+  #welcome .welcome-content {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 30px;
+  }
+
+  #home-info {
+    height: 550px;
+  }
+
+  #home-info .info-img {
+    display: none;
+  }
+
+  #home-info .info-content {
+    float: none;
+    width: 100%;
+  }
+
+  .box {
+    float: none;
+    width: 100%;
+  }
+
+  #about-info .info-right,
+  #about-info .info-left {
+    float: none;
+    width: 100%;
+  }
+
+  #about-info .info-right {
+    margin-top: 30px;
+  }
+
+  .l-heading {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .box {
+    float: none;
+    width: 100%;
+  }
+
+  .room {
+    float: none;
+    width: 100%;
+  }
+
+  #teams .team {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
+    width: 100%;
+    overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .date{
+    display: block;
+  }
+}
+
+
+
